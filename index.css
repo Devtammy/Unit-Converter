@@ -1,0 +1,52 @@
+:root {
+    --primary-color: darkslategray;
+    --secondary-color: white;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+.container {
+ text-align: center;
+ margin: auto;
+ border: 2px solid var(--secondary-color);
+    justify-content: center;
+    width: 50%;
+    color: white;
+    margin-top: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+.top-part {
+    background-image: linear-gradient(
+  60deg,
+  hsl(312deg 98% 44%) 0%,
+  hsl(305deg 100% 41%) 20%,
+  hsl(296deg 100% 40%) 40%,
+  hsl(286deg 100% 43%) 60%,
+  hsl(274deg 100% 47%) 80%,
+  hsl(258deg 100% 50%) 100%
+);
+padding: 15px;
+padding-bottom: 50px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+header {
+    padding-top: 30px;
+    font-size: 20px;
+}
+h1 {
+ font-size: 80px;
+ margin: 0px;
+ margin-top: 20px;
+}
+.bottom-part {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
